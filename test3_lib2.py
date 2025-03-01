@@ -1,6 +1,5 @@
 #
 # example ESP32 servo
-# phil van allen
 #
 import time
 import machine
