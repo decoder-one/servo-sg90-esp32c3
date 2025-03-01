@@ -3,7 +3,7 @@ from machine import Pin, PWM
 #Bibliothek welche die Funktion enthält den Ablauf zu Pausieren
 import time 
 
-#der Servomotor ist am GPIO 4 angeschlossen
+#der Servomotor ist am GPIO 2 angeschlossen
 #die Arbeitsfrequenz ist 50Hz
 servo = PWM(Pin(2), freq=50, duty=77)
 
